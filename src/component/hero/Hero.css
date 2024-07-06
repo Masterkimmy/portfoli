@@ -1,0 +1,66 @@
+.get{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.web{
+    color: white;
+    width: 22vw;
+    margin-top: 40px;
+}
+.hero{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tosh{
+    color: white;
+    width: 22vw;
+    line-height: 23px;
+}
+.btn{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+.img{
+    height: 70vh;
+}
+@media screen and (max-width:950px){
+    .web{
+        width: 55vw;
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .tosh{
+        width: 57vw;
+        text-align: center;
+    }
+    .btn{
+        width: 25vw;
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17px;
+    }
+    .img{
+        height: 15vh;
+    }
+    
+}

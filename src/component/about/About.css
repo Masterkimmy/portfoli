@@ -1,0 +1,92 @@
+.img{
+    height: 70vh;
+}
+.html{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    border-radius: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.problem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.problem p{
+    color: white;
+}
+.senior{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.senior h1{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.senior p{
+    width: 20vw;
+    color: white;
+    line-height: 22px;
+}
+.section{
+    background-color: #0d0d0dfb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 12%;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nothing{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.nothing p{
+    width: 12vw;
+}
+@media screen and (max-width:950px){
+    .section{
+        flex-direction: column-reverse;
+    }
+    .senior P{
+        width: 57vw;
+        text-align: center;
+    }
+    .senior{
+        align-items: center;
+        justify-content: center;
+    }
+    .nothing{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .senior h1{
+        margin-top: 40px;
+    }
+    .html{
+        width: 8vw;
+        height: 4vh;
+    }
+    .problem{
+        flex-direction: column;
+    }
+    .nothing p{
+        width: 40vw;
+        text-align: center;
+    }
+}

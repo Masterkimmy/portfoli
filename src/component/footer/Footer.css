@@ -1,0 +1,43 @@
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    gap: 30px;
+}
+.works h1{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    -webkit-background-clip: text;
+    color: transparent; 
+    margin-top: 40px;
+}
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.hub{
+    border-radius: 7px;
+    border: none;
+    
+}
+.hub a:hover{
+    background-color: aqua;
+}
+.reserved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: white;
+    margin-bottom: 30px;
+}
+.cc{
+    height: 15px;
+}
+.works h2{
+    color: white;
+}

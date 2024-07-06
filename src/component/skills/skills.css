@@ -1,0 +1,154 @@
+.own{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    border-radius: 100%;
+    width: 9%;
+    height: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.too p{
+    color: white;
+}
+.allow{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    border-radius: 100%;
+    width: 6%;
+    height: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.allo{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    border-radius: 100%;
+    width: 10%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.tools,.tool,.too{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+}
+.front{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50%;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+
+}
+.back{
+    width: 15vw;
+    color: white;
+}
+.ux{
+    width: 20vw;
+}
+.god{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-direction: column;
+    color: white;
+}
+.check{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    color:white ;
+    width: 11vw;
+    height:7vh ;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.design{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 40px;
+}
+.deck{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ball,.balling,.lower{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.myskills{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 40px;
+}
+.tools p{
+    color: white;
+}
+@media screen and (max-width:950px){
+    .front,.second{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .back{
+        width: 75vw;
+        text-align: center;
+        
+    }
+    .ball{
+        justify-content: center;
+        /* padding-left: 40px; */
+    }
+    .ux{
+        width: fit-content;
+    }
+    .balling{
+        padding: 20px;
+        
+    }
+    .tools{
+        width: 55vw;
+        padding-left: 10px;   
+    }
+    .check{
+        width: 35vw;
+    }
+    .design{
+        gap: 20px;
+        align-items: center;
+    }
+    .tool{
+        width: 90vw;
+        padding-left: 80px;
+    }
+    .too{
+        padding-left: 50px;
+    }
+    .check{
+        height: 5vh;
+    }
+}

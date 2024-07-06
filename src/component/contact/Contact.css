@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(11, 11, 11);
+}
+.contact p{
+    width: 30vw;
+    text-align: center;
+    color: white;
+}
+.contact h1{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 50px;
+}
+.contact button{
+    background: linear-gradient(#E12A1E , #0502BDD4);
+    height: 8vh;
+    width: 12vw;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.contact button a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:950px){
+    .contact p{
+        width: 46vw;
+    }
+    .contact button{
+        width: 40vw;
+        height: 5vh;
+    }
+    .contact{
+        gap: 20PX;
+    }
+}
